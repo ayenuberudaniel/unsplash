@@ -14,30 +14,43 @@
 </head>
 
 <body>
-    <aside class="sidebar">
-        <div style="width: 100%;">
-            <div style="display: flex; justify-content: center; padding: 8px;">
-                <img src="https://cdn.brandfetch.io/idhTmflJvK/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B"
-                    style="width: 28px; aspect-ratio: 1/1;" alt="">
+    <aside class="sidebar" style="padding: 12px;">
+        <div style="width: 100%;" class="sidebar-group">
+            <div class="sidebar-icon logo">
+                <img src="https://cdn.brandfetch.io/idhTmflJvK/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="">
             </div>
 
+
+            <a href="" class="sidebar-icon"><img src="./assets/icons/photo.svg" class="icon" alt=""></a>
+
+            <a href="" class="sidebar-icon" style="transform: rotate(270deg);"> <img
+                    src="./assets/icons/illustration.svg" class="icon"></a>
+
         </div>
 
         <div class="divider"></div>
+
         <div>
+            <a href="" class="sidebar-icon"><img src="./assets/icons/compass.svg" alt=""></a>
+
+            <a href="" class="sidebar-icon"><img src="./assets/icons/downlaod.svg" alt=""></a>
+            <a href="" class="sidebar-icon"><img src="./assets/icons/collection.svg" alt=""></a>
 
         </div>
+
 
         <div class="divider"></div>
 
         <div>
-
+            <a href="" class="sidebar-icon"><img src="./assets/icons/bookmark.svg" alt=""></a>
         </div>
+
     </aside>
     <nav class="search">
         <div class="search-input">
             <input type="text" placeholder="Search photos and illustrations">
             <img src="./assets/icons/search.svg" alt="" class="icon" style="position: absolute; left: 20px;">
+            <img src="./assets/icons/camera.svg" alt="" class="icon" style="position: absolute; right: 20px;">
         </div>
         <div>
             <button style="border: none; background: transparent; padding-inline: 12px;">Get Unsplash+</button>
@@ -51,21 +64,47 @@
     </nav>
     <nav class="navbar">
         <a href="" class="link active">Featured</a>
-        <a href="" class="link">Summer</a>
-        <a href="" class="link">Wallpaper</a>
-        <a href="" class="link">3D Reader</a>
-        <a href="" class="link">Nature</a>
-        <a href="" class="link">Text</a>
-        <a href="" class="link">Film</a>
-        <a href="" class="link">Architecture</a>
-        <a href="" class="link">Street Photography</a>
-        <a href="" class="link">Experimental</a>
-        <a href="" class="link">Travel</a>
-        <a href="" class="link">People</a>
+        <a href="" class="link active">Summer</a>
+        <a href="" class="link active">Wallpaper</a>
+        <a href="" class="link active">3D Reader</a>
+        <a href="" class="link active">Nature</a>
+        <a href="" class="link active">Text</a>
+        <a href="" class="link active">Film</a>
+        <a href="" class="link active">Architecture</a>
+        <a href="" class="link active">Street Photography</a>
+        <a href="" class="link active">Experimental</a>
+        <a href="" class="link active">Travel</a>
+        <a href="" class="link active">People</a>
     </nav>
 
     <div class="main-content">
-        <div class="gallery">
+        <div class="hero">
+            <div>
+                <div>
+                    <h1 class="hero-title">Unsplash</h1>
+                    <p class="sub-text1">The internet’s source for visuals.</p>
+                    <p class="sub-text2">Powered by creators everywhere.</p>
+                </div>
+
+                <div class="hero-search-input">
+                    <input type="text" placeholder="Search photos and illustrations">
+                    <img src="./assets/icons/search.svg" alt="" class="icon" style="position: absolute; left: 20px;">
+
+                </div>
+
+            </div>
+
+            <div class="hero-right">
+                <div class="hero-right-item">
+                    <h1>New premium visuals every month</h1>
+                </div>
+
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <section class="gallery">
             <div class="gallery-item">
                 <img src="https://images.unsplash.com/photo-1773332611476-6ec2ba68049f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5OHx8fGVufDB8fHx8fA%3D%3D"
                     alt="">
@@ -124,7 +163,7 @@
 
 
             </div>
-        </div>
+        </section>
     </div>
 </body>
 
